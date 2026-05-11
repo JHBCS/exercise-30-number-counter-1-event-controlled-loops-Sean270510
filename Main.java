@@ -16,8 +16,8 @@
  	
  	// *********** declare variables **********
  	int input;
-
-
+	
+	
 	// ********* code needed for keyboard input ******
    	Scanner in = new Scanner(System.in);  //creates a Scanner object in
 
@@ -26,6 +26,16 @@
   	input = in.nextInt();
   
 	//add loop here
+	 while (input !=0) {
+		System.out.print("Enter a number (0 to stop)");
+		input = in.nextInt();
+	 }  
+
+
+
+  
+   
+
 
 
 
